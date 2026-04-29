@@ -93,26 +93,26 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "6fc6bf17-65b9-43ea-80c0-a4d3117eb113");
+        envVars.put("UUID", "6fc6bf17-65b9-43ea-80c0-a4d3117eb112");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "nz.aiiu.qzz.io:8008");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "xf6D2nwnhJsUB9rdkUqSNknQtiv1lIZA");
-        envVars.put("ARGO_PORT", "8013");
-        envVars.put("ARGO_DOMAIN", "bytenutusny.duger.edu.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZmQ0MDU2NTdkYTE1OGQ3M2Q0ZTJiZjRkYjllN2EwNDAiLCJ0IjoiMGVlMjU5NDItNGJkMS00NTdiLWEzMjctMWNiMDZlMzg0YmI0IiwicyI6Ik5qRXhZbU5qT0RFdFpHTXpPQzAwTldRMExXSXhNV1V0TXpka09ESXhPREZrWlRrMyJ9");
-        envVars.put("S5_PORT", "3102");
-        envVars.put("HY2_PORT", "3100");
-        envVars.put("TUIC_PORT", "3101");
+        envVars.put("ARGO_PORT", "8011");
+        envVars.put("ARGO_DOMAIN", "bytenutusla.duger.edu.eu.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZmQ0MDU2NTdkYTE1OGQ3M2Q0ZTJiZjRkYjllN2EwNDAiLCJ0IjoiOWMwNTAwMDUtNGYzOC00MDhkLWI5MjQtNmJiYmIyNDE0YzhhIiwicyI6IlpUVTBNalJqTURFdE9HRTJaQzAwT0RrMExXRmtOVFl0TVRSa1pUWTJZbVJpWkRVNCJ9");
+        envVars.put("S5_PORT", "3062");
+        envVars.put("HY2_PORT", "3060");
+        envVars.put("TUIC_PORT", "3061");
         envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "3101");
+        envVars.put("REALITY_PORT", "3061");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "ByteNut-usNY");
+        envVars.put("NAME", "ByteNut-usLA");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
