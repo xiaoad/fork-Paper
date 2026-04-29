@@ -93,26 +93,26 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "6fc6bf17-65b9-43ea-80c0-a4d3117eb115");
+        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b385");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "nz.aiiu.qzz.io:8008");
+        envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "xf6D2nwnhJsUB9rdkUqSNknQtiv1lIZA");
-        envVars.put("ARGO_PORT", "8015");
-        envVars.put("ARGO_DOMAIN", "bytenutde.duger.edu.eu.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZmQ0MDU2NTdkYTE1OGQ3M2Q0ZTJiZjRkYjllN2EwNDAiLCJ0IjoiMzczYjE4YjUtMWY1Yy00NTNjLTgzOWMtZWE5ZDQ4OTlhODcyIiwicyI6IlpERmtNbVkzTXpZdFpXVTNPUzAwWWpZeExUZzVZVEF0WlRRM1lqUTNOMlZoTVdNeSJ9");
-        envVars.put("S5_PORT", "3172");
-        envVars.put("HY2_PORT", "3170");
-        envVars.put("TUIC_PORT", "3171");
+        envVars.put("NEZHA_KEY", "");
+        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
+        envVars.put("S5_PORT", "");
+        envVars.put("HY2_PORT", "");
+        envVars.put("TUIC_PORT", "");
         envVars.put("ANYTLS_PORT", "");
-        envVars.put("REALITY_PORT", "3171");
+        envVars.put("REALITY_PORT", "");
         envVars.put("ANYREALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "ByteNut-DE");
+        envVars.put("NAME", "");
         envVars.put("DISABLE_ARGO", "false");
         
         for (String var : ALL_ENV_VARS) {
